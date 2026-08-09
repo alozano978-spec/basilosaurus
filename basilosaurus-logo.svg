@@ -1,0 +1,141 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 200">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0a1628"/>
+      <stop offset="100%" stop-color="#0d1f3c"/>
+    </linearGradient>
+    <linearGradient id="boneLight" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#c4b590"/>
+      <stop offset="50%" stop-color="#e8dcc8"/>
+      <stop offset="100%" stop-color="#c4b590"/>
+    </linearGradient>
+    <linearGradient id="boneDark" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#a89870"/>
+      <stop offset="50%" stop-color="#c4b590"/>
+      <stop offset="100%" stop-color="#a89870"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="200" fill="url(#bg)" rx="14"/>
+
+  <!-- === SKULL — long, narrow, crocodile-like === -->
+  <!-- Cranium upper -->
+  <path d="M380 82 L510 70 L540 78 L535 88 L510 92 L380 95 Z" fill="url(#boneLight)" opacity=".9"/>
+  <!-- Cranium ridge line -->
+  <path d="M385 82 L510 70" stroke="#a89870" stroke-width="1" fill="none" opacity=".4"/>
+  <!-- Lower jaw -->
+  <path d="M385 95 L505 108 L535 100 L530 94 L510 92" fill="url(#boneDark)" opacity=".75"/>
+  <!-- Jaw separation line -->
+  <path d="M385 93 L505 104 L535 96" stroke="#0a1628" stroke-width="1.5" fill="none" opacity=".6"/>
+
+  <!-- Eye socket -->
+  <ellipse cx="430" cy="83" rx="7" ry="6" fill="#0a1628" opacity=".75"/>
+  <ellipse cx="430" cy="83" rx="3" ry="2.5" fill="#c4b590" opacity=".15"/>
+
+  <!-- Nasal opening (top of skull — Basilosaurus nostrils were far back) -->
+  <ellipse cx="470" cy="77" rx="5" ry="2.5" fill="#0a1628" opacity=".55"/>
+
+  <!-- Temporal fenestra -->
+  <ellipse cx="450" cy="83" rx="4" ry="3" fill="#0a1628" opacity=".4"/>
+
+  <!-- UPPER TEETH — sharp, conical -->
+  <line x1="395" y1="93" x2="396" y2="102" stroke="url(#boneLight)" stroke-width="2" stroke-linecap="round" opacity=".9"/>
+  <line x1="405" y1="93" x2="407" y2="103" stroke="url(#boneLight)" stroke-width="2" stroke-linecap="round" opacity=".9"/>
+  <line x1="415" y1="93" x2="418" y2="105" stroke="url(#boneLight)" stroke-width="2.5" stroke-linecap="round" opacity=".9"/>
+  <line x1="426" y1="93" x2="428" y2="104" stroke="url(#boneLight)" stroke-width="2" stroke-linecap="round" opacity=".9"/>
+  <line x1="437" y1="93" x2="439" y2="103" stroke="url(#boneLight)" stroke-width="2" stroke-linecap="round" opacity=".9"/>
+  <line x1="448" y1="93" x2="450" y2="101" stroke="url(#boneLight)" stroke-width="2" stroke-linecap="round" opacity=".85"/>
+  <line x1="458" y1="93" x2="459" y2="100" stroke="url(#boneLight)" stroke-width="1.8" stroke-linecap="round" opacity=".8"/>
+
+  <!-- LOWER TEETH — slightly offset -->
+  <line x1="400" y1="97" x2="401" y2="104" stroke="url(#boneDark)" stroke-width="1.8" stroke-linecap="round" opacity=".8"/>
+  <line x1="412" y1="99" x2="414" y2="107" stroke="url(#boneDark)" stroke-width="2" stroke-linecap="round" opacity=".8"/>
+  <line x1="424" y1="100" x2="426" y2="106" stroke="url(#boneDark)" stroke-width="1.8" stroke-linecap="round" opacity=".8"/>
+  <line x1="435" y1="99" x2="437" y2="105" stroke="url(#boneDark)" stroke-width="1.8" stroke-linecap="round" opacity=".75"/>
+  <line x1="446" y1="98" x2="447" y2="103" stroke="url(#boneDark)" stroke-width="1.5" stroke-linecap="round" opacity=".7"/>
+
+  <!-- === VERTEBRAL COLUMN — smooth serpentine path === -->
+  <path d="M378 89 
+           Q350 70 320 85 Q290 105 260 90 Q230 72 200 88 
+           Q170 105 140 90 Q110 72 80 90 
+           Q55 102 35 93 Q20 86 8 90" 
+        stroke="url(#boneLight)" stroke-width="8" fill="none" stroke-linecap="round" opacity=".85"/>
+
+  <!-- VERTEBRAE — spinous processes along the spine -->
+  <g fill="#e8dcc8" opacity=".55">
+    <rect x="348" y="72" width="3" height="10" rx="1" transform="rotate(-20,349,77)"/>
+    <rect x="328" y="78" width="3" height="10" rx="1" transform="rotate(-10,329,83)"/>
+    <rect x="308" y="84" width="3" height="10" rx="1" transform="rotate(5,309,89)"/>
+    <rect x="288" y="86" width="3" height="11" rx="1" transform="rotate(15,289,91)"/>
+    <rect x="268" y="83" width="3" height="11" rx="1" transform="rotate(10,269,88)"/>
+    <rect x="248" y="77" width="3" height="10" rx="1" transform="rotate(-5,249,82)"/>
+    <rect x="228" y="75" width="3" height="10" rx="1" transform="rotate(-10,229,80)"/>
+    <rect x="208" y="78" width="3" height="10" rx="1" transform="rotate(-5,209,83)"/>
+    <rect x="188" y="84" width="3" height="11" rx="1" transform="rotate(10,189,89)"/>
+    <rect x="168" y="84" width="3" height="11" rx="1" transform="rotate(15,169,89)"/>
+    <rect x="148" y="80" width="3" height="10" rx="1" transform="rotate(8,149,85)"/>
+    <rect x="128" y="77" width="3" height="10" rx="1" transform="rotate(-5,129,82)"/>
+    <rect x="108" y="78" width="3" height="10" rx="1" transform="rotate(-8,109,83)"/>
+    <rect x="90"  y="82" width="3" height="10" rx="1" transform="rotate(5,91,87)"/>
+    <rect x="72"  y="85" width="3" height="9" rx="1" transform="rotate(12,73,89)"/>
+    <rect x="55"  y="85" width="2.5" height="8" rx="1" transform="rotate(10,56,89)"/>
+    <rect x="40"  y="84" width="2.5" height="7" rx="1" transform="rotate(5,41,87)"/>
+    <rect x="28"  y="85" width="2" height="6" rx="1" transform="rotate(0,29,88)"/>
+    <rect x="18"  y="87" width="2" height="5" rx="1"/>
+  </g>
+
+  <!-- === RIBCAGE — front section === -->
+  <g stroke="url(#boneDark)" stroke-width="1.8" fill="none" opacity=".4" stroke-linecap="round">
+    <path d="M365 92 Q360 68 352 64"/>
+    <path d="M350 83 Q345 62 337 58"/>
+    <path d="M335 80 Q330 60 322 56"/>
+    <path d="M320 82 Q315 65 308 62"/>
+    <path d="M305 86 Q300 70 294 68"/>
+    <path d="M290 87 Q286 74 280 72"/>
+    <path d="M275 84 Q272 74 266 73"/>
+  </g>
+
+  <!-- === FRONT FLIPPER — Basilosaurus had elbow joints === -->
+  <g fill="none" stroke="url(#boneLight)" stroke-linecap="round" opacity=".55">
+    <!-- Humerus -->
+    <path d="M350 92 L340 108" stroke-width="3"/>
+    <!-- Radius/Ulna -->
+    <path d="M340 108 L332 118" stroke-width="2.5"/>
+    <path d="M340 108 L338 120" stroke-width="2"/>
+    <!-- Digits -->
+    <path d="M332 118 L325 125" stroke-width="1.5"/>
+    <path d="M332 118 L330 127" stroke-width="1.2"/>
+    <path d="M338 120 L334 128" stroke-width="1.2"/>
+    <!-- Joint dots -->
+    <circle cx="340" cy="108" r="2.5" fill="#e8dcc8" opacity=".5"/>
+    <circle cx="332" cy="118" r="2" fill="#e8dcc8" opacity=".4"/>
+  </g>
+
+  <!-- === VESTIGIAL HIND LIMBS — the signature Basilosaurus trait === -->
+  <g fill="none" stroke="url(#boneLight)" stroke-linecap="round" opacity=".6">
+    <!-- Pelvis -->
+    <path d="M168 85 L162 98" stroke-width="3"/>
+    <path d="M162 98 L155 96" stroke-width="2.5"/>
+    <!-- Femur -->
+    <path d="M162 98 L158 112" stroke-width="2.5"/>
+    <!-- Tibia -->
+    <path d="M158 112 L154 120" stroke-width="2"/>
+    <!-- Tiny foot bones -->
+    <path d="M154 120 L150 124" stroke-width="1.5"/>
+    <path d="M154 120 L156 125" stroke-width="1.2"/>
+    <!-- Joint dots -->
+    <circle cx="162" cy="98" r="2.5" fill="#e8dcc8" opacity=".5"/>
+    <circle cx="158" cy="112" r="2" fill="#e8dcc8" opacity=".4"/>
+    <circle cx="154" cy="120" r="1.5" fill="#e8dcc8" opacity=".3"/>
+  </g>
+
+  <!-- === TAIL — tapering vertebrae to tip === -->
+  <g fill="#e8dcc8" opacity=".35">
+    <circle cx="18" cy="88" r="1.5"/>
+    <circle cx="12" cy="89" r="1.2"/>
+    <circle cx="7"  cy="90" r="0.8"/>
+  </g>
+
+  <!-- === AMBIENT GLOW — subtle aura around skeleton === -->
+  <path d="M378 89 Q350 70 320 85 Q290 105 260 90 Q230 72 200 88 Q170 105 140 90 Q110 72 80 90 Q55 102 35 93 Q20 86 8 90" 
+        stroke="#c49a2a" stroke-width="12" fill="none" stroke-linecap="round" opacity=".06"/>
+</svg>
