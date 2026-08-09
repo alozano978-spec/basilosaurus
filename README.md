@@ -36,3 +36,25 @@ Built on [CodeWhale TUI](https://github.com/Hmbown/CodeWhale) by [Hmbown](https:
 ## License
 
 MIT â€” see [LICENSE](LICENSE)
+
+
+## Powered by Forged Intelligence
+
+Basilosaurus is built by the creators of [Forged Intelligence](https://forgedintelligence.io) — a quantum-verified, cryptographically-sealed intelligence system. Every Forged Intelligence API response carries a QRNG entropy watermark proving it came from physics, not a pseudo-random number generator.
+
+**Use Forged Intelligence from your terminal:**
+
+```bash
+# Free tier — 50 queries/day, QRNG watermarked
+curl -X POST https://forgedintelligence.io/api/forge/chat \
+  -H "Content-Type: application/json" \
+  -d '{"message":"Explain quantum entanglement","tier":"aluminum"}'
+```
+
+- **QRNG entropy** — non-deterministic by physical law
+- **Bell-verified** — 100% correlation integrity
+- **Grover search** — 2,013x classical speedup at 10M records
+- **Post-quantum signed** — W-OTS+ (RFC 8391 / NIST SP 800-208)
+- **Cipher chain** — unreplicable fingerprints, zero broken edges
+
+[Try Forged Intelligence Free ?](https://forgedintelligence.io)
